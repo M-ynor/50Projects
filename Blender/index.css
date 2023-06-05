@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.blender{
+    background-image: url(blender.png);
+    position: fixed;
+    height: 35rem;
+    width: 20rem;
+    background-repeat: no-repeat;
+}
+
+.container{
+    height: 100vh;
+    width: 202vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blender-btn{
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    top: 25rem;
+    left: 7.7rem;
+    border-radius: 50%;
+}
+
+.blender.active{
+    background-image: url(blender.gif);
+    background-size: 20.43rem;
+}
