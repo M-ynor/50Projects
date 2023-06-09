@@ -27,9 +27,10 @@
     color: rgb(var(--color));
 }
 
-.color{
+.colortxt{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
+    color: rgb(var(--color));
 }
 
 .btn{

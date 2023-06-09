@@ -1,12 +1,12 @@
 window.onload = function (){
     var color = document.querySelector(":root");
     const bt = document.querySelector(".btn");
-    const txt = document.getElementById("color");
+    const txt = document.getElementById("colortxt");
 
     let color1 = 0;
     let color2 = 0;
     let color3 = 0;
-    export let colors;
+    var colors;
 
     function randomIntFromInterval() {
         max=255;
@@ -16,7 +16,7 @@ window.onload = function (){
         color3 = Math.floor(Math.random() * (max - min + 1) + min)
     }
     function TxtChange(){
-        color.innerHTML = "rbg(" +color1 +","+ color2 + "," + color3 + ")";
+        txt.innerHTML = "rbg(" +color1 +","+ color2 + "," + color3 + ")";
     }
 
     function SetColor() {
